@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="fav icon" href="assets/cadeado.png">
+    <script src = "script.js" defer></script>
+    <title>Criptografador de Texto</title>
+</head>
+<body>
+    <header class="logo">
+        <a href="index.html">
+            <img id="logo" src="assets/rosquinha.png" alt="rosquinha"/>
+        </a>
+    </header>
+    <main>
+        <div class="conteudo-esquerda">
+            <textarea class="texto" required="" placeholder="Digite seu texto" spellcheck="false"></textarea>
+            <div class = "conteudo-esquerda-final">
+                <div class="conteudo-esquerda-regras">
+                    <img src="assets/exclamacao.png" alt="">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="conteudo-esquerda-botoes">
+                    <button class = criptografar><ion-icon name="lock-closed-outline"></ion-icon> Criptografar</button>
+                    <button class = descriptografar><ion-icon name="lock-open-outline"></ion-icon> Descriptografar</button>
+                </div>
+            </div>
+        </div>
+        <div class = "conteudo-direita">
+            <p class = "texto-criptografado"></p>
+            <div class = "conteudo-direita-itens">
+                <img id="homer_feliz" src="assets/homer.png" alt="homer_feliz">
+                <img id="homer_triste" src="assets/homem_uh.png" alt="homem triste">
+                <div class="conteudo-direita-mensagem">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>      
+            </div>
+            <button class = "conteudo-direita-copiar">Copiar</button>
+        </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
