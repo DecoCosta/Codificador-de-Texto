@@ -43,7 +43,7 @@ main {
  
 .conteudo-esquerda {
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 5%; 
     margin-bottom: 1.5%;
     display: flex;
     flex-direction: column;
@@ -151,6 +151,7 @@ main {
     box-shadow: 0 0 10px #0000001e;
     overflow-y: auto;
     word-wrap: break-word;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.356);
 }
 
 .conteudo-direita::-webkit-scrollbar {
